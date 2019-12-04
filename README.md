@@ -22,7 +22,11 @@ git add pom.xml
 
 2. Deploy to Sonatype (Maven Central)
 ```
-mvn clean deploy
+# For operational release
+mvn clean site deploy -P release
+
+# For release candidate
+mvn clean site deploy
 ```
 
 3. Tag a release in Github
