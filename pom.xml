@@ -227,7 +227,7 @@ POSSIBILITY OF SUCH DAMAGE.
     </profile>
   </profiles>
 
-  <distributionManagement>
+  <!--distributionManagement>
     <snapshotRepository>
       <id>ossrh</id>
       <url>https://oss.sonatype.org/content/repositories/snapshots</url>
@@ -236,7 +236,7 @@ POSSIBILITY OF SUCH DAMAGE.
       <id>ossrh</id>
       <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
-  </distributionManagement>
+  </distributionManagement-->
   
   <scm>
     <url>https://github.com/NASA-PDS/pdsen-maven-parent/tree/master</url>
