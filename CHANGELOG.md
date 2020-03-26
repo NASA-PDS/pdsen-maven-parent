@@ -1,5 +1,8 @@
 # Change Log
 
+## [v1.1.0](https://github.com/nasa-pds/pdsen-maven-parent/tree/v1.1.0) (2020-02-28)
+[Full Changelog](https://github.com/nasa-pds/pdsen-maven-parent/compare/v1.0.0...v1.1.0)
+
 ## [v1.0.0](https://github.com/nasa-pds/pdsen-maven-parent/tree/v1.0.0) (2019-12-04)
 
 
