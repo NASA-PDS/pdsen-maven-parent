@@ -227,6 +227,20 @@ POSSIBILITY OF SUCH DAMAGE.
     </profile>
   </profiles>
 
+  <!-- Temporary workaround -->
+  <distributionManagement>
+    <snapshotRepository>
+        <id>dev</id>
+        <name>Local repository</name>
+        <url>file://${user.home}/.m2/repository</url>
+    </snapshotRepository>
+    <repository>
+        <id>dev</id>
+        <name>Local repository</name>
+        <url>file://${user.home}/.m2/repository</url>
+    </repository>
+  </distributionManagement>
+
   <!--distributionManagement>
     <snapshotRepository>
       <id>ossrh</id>
