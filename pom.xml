@@ -124,7 +124,7 @@ POSSIBILITY OF SUCH DAMAGE.
 
   <build>
     <plugins>
-      <!--plugin>
+      <plugin>
         <groupId>org.sonatype.plugins</groupId>
         <artifactId>nexus-staging-maven-plugin</artifactId>
         <version>1.6.8</version>
@@ -134,7 +134,7 @@ POSSIBILITY OF SUCH DAMAGE.
           <nexusUrl>https://oss.sonatype.org/</nexusUrl>
           <autoReleaseAfterClose>true</autoReleaseAfterClose>
         </configuration>
-      </plugin-->
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-site-plugin</artifactId>
@@ -227,21 +227,7 @@ POSSIBILITY OF SUCH DAMAGE.
     </profile>
   </profiles>
 
-  <!-- Temporary workaround -->
   <distributionManagement>
-    <snapshotRepository>
-        <id>dev</id>
-        <name>Local repository</name>
-        <url>file://${user.home}/.m2/repository</url>
-    </snapshotRepository>
-    <repository>
-        <id>dev</id>
-        <name>Local repository</name>
-        <url>file://${user.home}/.m2/repository</url>
-    </repository>
-  </distributionManagement>
-
-  <!--distributionManagement>
     <snapshotRepository>
       <id>ossrh</id>
       <url>https://oss.sonatype.org/content/repositories/snapshots</url>
@@ -250,7 +236,7 @@ POSSIBILITY OF SUCH DAMAGE.
       <id>ossrh</id>
       <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
-  </distributionManagement-->
+  </distributionManagement>
   
   <scm>
     <url>https://github.com/NASA-PDS/pdsen-maven-parent/tree/master</url>
