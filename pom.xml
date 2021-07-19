@@ -164,6 +164,20 @@ POSSIBILITY OF SUCH DAMAGE.
           <artifactId>maven-failsafe-plugin</artifactId>
           <version>3.0.0-M3</version>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-install-plugin</artifactId>
+        <version>3.0.0-M1</version>
+        <executions>
+          <execution>
+            <id>default-install</id>
+            <phase>install</phase>
+            <goals>
+              <goal>install</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
   </build>
 
