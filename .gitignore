@@ -39,8 +39,10 @@ src/test/temp/
 *.sublime-*
 *.DS_Store
 pom.xml.versionsBackup
+\#*
 
 # Java stuff
 *.javac
 .gwt/
 target/
+validate_stack_traces*
