@@ -314,6 +314,11 @@ POSSIBILITY OF SUCH DAMAGE.
           <failOnError>false</failOnError>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-linkcheck-plugin</artifactId>
+        <version>1.2</version>
+      </plugin>
     </plugins>
   </reporting>
 </project>
