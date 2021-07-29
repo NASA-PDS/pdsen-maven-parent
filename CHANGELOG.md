@@ -1,6 +1,14 @@
 # Changelog
 
-## [v1.10.0-SNAPSHOT](https://github.com/NASA-PDS/pdsen-maven-parent/tree/v1.10.0-SNAPSHOT) (2021-07-23)
+## [«unknown»](https://github.com/NASA-PDS/pdsen-maven-parent/tree/«unknown») (2021-07-29)
+
+[Full Changelog](https://github.com/NASA-PDS/pdsen-maven-parent/compare/v1.10.0-SNAPSHOT...«unknown»)
+
+**Other closed issues:**
+
+- As a developer, warnings make me worries and hide other real problems when running Maven with this POM as a parent [\#1](https://github.com/NASA-PDS/pdsen-maven-parent/issues/1)
+
+## [v1.10.0-SNAPSHOT](https://github.com/NASA-PDS/pdsen-maven-parent/tree/v1.10.0-SNAPSHOT) (2021-07-24)
 
 [Full Changelog](https://github.com/NASA-PDS/pdsen-maven-parent/compare/v1.9.0...v1.10.0-SNAPSHOT)
 
