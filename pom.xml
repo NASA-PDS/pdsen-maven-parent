@@ -39,7 +39,7 @@ POSSIBILITY OF SUCH DAMAGE.
 
   <groupId>gov.nasa</groupId>
   <artifactId>pds</artifactId>
-  <version>1.10.0</version>
+  <version>1.11.0</version>
   <packaging>pom</packaging>
 
   <name>Planetary Data System Parent POM</name>
