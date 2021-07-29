@@ -18,6 +18,7 @@ In the event updates are made to the POM and they are ready for release, perform
 VERSION=1.1.0
 mvn versions:set -DnewVersion=$VERSION
 git add pom.xml
+git commit -m "release v$VERSION"
 ```
 
 2. Deploy to Sonatype (Maven Central)
@@ -25,12 +26,21 @@ git add pom.xml
 # For operational release
 mvn clean site deploy -P release
 
-# For release candidate
+# For snapshot
 mvn clean site deploy
 ```
 
-3. Tag a release in Github
+3. Tag a release in Github and push changes to `main`
 ```
-git tag v${VERSION}
+git tag v${VERSION} -m "[RELEASE] pdsen-maven-parent v$VERSION" -m "See [CHANGELOG](https://github.com/NASA-PDS/pdsen-maven-parent/blob/main/CHANGELOG.md) for more details."
 git push --tags
+git push origin main
+```
+
+4. Back to development version
+```
+VERSION=1.12.0-SNAPSHOT
+mvn versions:set -DnewVersion=$VERSION
+git add pom.xml
+git commit -m "start development on $VERSION"
 ```
