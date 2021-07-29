@@ -14,11 +14,7 @@
 
 ## [v1.9.0](https://github.com/NASA-PDS/pdsen-maven-parent/tree/v1.9.0) (2021-07-19)
 
-[Full Changelog](https://github.com/NASA-PDS/pdsen-maven-parent/compare/v1.9.0-SNAPSHOT...v1.9.0)
-
-## [v1.9.0-SNAPSHOT](https://github.com/NASA-PDS/pdsen-maven-parent/tree/v1.9.0-SNAPSHOT) (2021-06-11)
-
-[Full Changelog](https://github.com/NASA-PDS/pdsen-maven-parent/compare/v1.8.0...v1.9.0-SNAPSHOT)
+[Full Changelog](https://github.com/NASA-PDS/pdsen-maven-parent/compare/v1.8.0...v1.9.0)
 
 ## [v1.8.0](https://github.com/NASA-PDS/pdsen-maven-parent/tree/v1.8.0) (2021-05-19)
 
@@ -34,11 +30,7 @@
 
 ## [v1.7.0](https://github.com/NASA-PDS/pdsen-maven-parent/tree/v1.7.0) (2020-12-18)
 
-[Full Changelog](https://github.com/NASA-PDS/pdsen-maven-parent/compare/1.6.0-SNAPSHOT...v1.7.0)
-
-## [1.6.0-SNAPSHOT](https://github.com/NASA-PDS/pdsen-maven-parent/tree/1.6.0-SNAPSHOT) (2020-12-18)
-
-[Full Changelog](https://github.com/NASA-PDS/pdsen-maven-parent/compare/v1.5.0...1.6.0-SNAPSHOT)
+[Full Changelog](https://github.com/NASA-PDS/pdsen-maven-parent/compare/v1.5.0...v1.7.0)
 
 ## [v1.5.0](https://github.com/NASA-PDS/pdsen-maven-parent/tree/v1.5.0) (2020-12-18)
 
