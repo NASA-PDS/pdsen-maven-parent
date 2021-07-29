@@ -121,6 +121,11 @@ POSSIBILITY OF SUCH DAMAGE.
       </roles>
     </developer>
   </developers>
+  
+  <organization>
+      <name>Planetary Data System</name>
+      <url>https://pds.nasa.gov/</url>
+  </organization>
 
   <build>
     <plugins>
