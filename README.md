@@ -8,6 +8,17 @@ gov.nasa.pds projects should inherit.
 
 See [pom.xml](https://github.com/nasa-pds/pdsen-maven-parent/blob/master/pom.xml) for more information
 
+# Getting Started
+To configure your project to use the PDS Maven Parent:
+```xml
+  <parent>
+    <groupId>gov.nasa</groupId>
+    <artifactId>pds</artifactId>
+    <version>{VERSION}</version>
+  </parent>
+```
+To get the latest version, see what has been deployed to [Maven Central Repo](https://search.maven.org/artifact/gov.nasa/pds)
+
 # Release and Deployment
 
 In the event updates are made to the POM and they are ready for release, perform the following steps:
