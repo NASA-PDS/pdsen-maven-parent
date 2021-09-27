@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
-Copyright 2019, California Institute of Technology ("Caltech").
+Copyright 2019–2021, California Institute of Technology ("Caltech").
 U.S. Government sponsorship acknowledged.
 
 All rights reserved.
@@ -9,12 +9,12 @@ All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
 
-* Redistributions of source code must retain the above copyright notice,
+• Redistributions of source code must retain the above copyright notice,
   this list of conditions and the following disclaimer.
-* Redistributions must reproduce the above copyright notice, this list of
+• Redistributions must reproduce the above copyright notice, this list of
   conditions and the following disclaimer in the documentation and/or other
   materials provided with the distribution.
-* Neither the name of Caltech nor its operating division, the Jet Propulsion
+• Neither the name of Caltech nor its operating division, the Jet Propulsion
   Laboratory, nor the names of its contributors may be used to endorse or
   promote products derived from this software without specific prior written
   permission.
@@ -56,6 +56,7 @@ POSSIBILITY OF SUCH DAMAGE.
     </license>
   </licenses>
   
+  <!-- This seems not just perpetually out of date, but of questionable utility -->
   <developers>
     <developer>
       <name>Jordan Padams</name>
