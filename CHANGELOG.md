@@ -1,6 +1,10 @@
 # Changelog
 
-## [v1.14.0-SNAPSHOT](https://github.com/NASA-PDS/pdsen-maven-parent/tree/v1.14.0-SNAPSHOT) (2021-09-29)
+## [release/1.14.1](https://github.com/NASA-PDS/pdsen-maven-parent/tree/release/1.14.1) (2022-09-27)
+
+[Full Changelog](https://github.com/NASA-PDS/pdsen-maven-parent/compare/v1.14.0-SNAPSHOT...release/1.14.1)
+
+## [v1.14.0-SNAPSHOT](https://github.com/NASA-PDS/pdsen-maven-parent/tree/v1.14.0-SNAPSHOT) (2021-12-03)
 
 [Full Changelog](https://github.com/NASA-PDS/pdsen-maven-parent/compare/v1.13.0...v1.14.0-SNAPSHOT)
 
