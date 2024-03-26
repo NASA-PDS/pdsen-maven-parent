@@ -1,5 +1,9 @@
 # Changelog
 
+## [release/1.16.0](https://github.com/NASA-PDS/pdsen-maven-parent/tree/release/1.16.0) (2024-03-26)
+
+[Full Changelog](https://github.com/NASA-PDS/pdsen-maven-parent/compare/v1.15.0...release/1.16.0)
+
 ## [v1.15.0](https://github.com/NASA-PDS/pdsen-maven-parent/tree/v1.15.0) (2023-12-28)
 
 [Full Changelog](https://github.com/NASA-PDS/pdsen-maven-parent/compare/v1.14.0...v1.15.0)
