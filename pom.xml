@@ -266,7 +266,6 @@ POSSIBILITY OF SUCH DAMAGE.
               <executions>
                 <execution>
                   <id>attach-sources</id>
-                  <phase>prepare-package</phase>
                   <goals>
                     <goal>jar-no-fork</goal>
                     <goal>test-jar-no-fork</goal>
