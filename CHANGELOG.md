@@ -1,5 +1,13 @@
 # Changelog
 
+## [«unknown»](https://github.com/NASA-PDS/pdsen-maven-parent/tree/«unknown») (2024-05-24)
+
+[Full Changelog](https://github.com/NASA-PDS/pdsen-maven-parent/compare/v1.17.0...«unknown»)
+
+**Other closed issues:**
+
+- Resolve issues with `duplicated artifacts attached.` for maven source plugin [\#37](https://github.com/NASA-PDS/pdsen-maven-parent/issues/37)
+
 ## [v1.17.0](https://github.com/NASA-PDS/pdsen-maven-parent/tree/v1.17.0) (2024-04-11)
 
 [Full Changelog](https://github.com/NASA-PDS/pdsen-maven-parent/compare/v1.16.0...v1.17.0)
