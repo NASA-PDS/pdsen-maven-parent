@@ -1,8 +1,8 @@
 # Changelog
 
-## [«unknown»](https://github.com/NASA-PDS/pdsen-maven-parent/tree/«unknown») (2024-05-24)
+## [release/1.18.0](https://github.com/NASA-PDS/pdsen-maven-parent/tree/release/1.18.0) (2024-05-24)
 
-[Full Changelog](https://github.com/NASA-PDS/pdsen-maven-parent/compare/v1.17.0...«unknown»)
+[Full Changelog](https://github.com/NASA-PDS/pdsen-maven-parent/compare/v1.17.0...release/1.18.0)
 
 **Other closed issues:**
 
