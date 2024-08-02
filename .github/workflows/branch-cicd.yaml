@@ -78,14 +78,14 @@ jobs:
                 run: |
                     cd validate
                     mvn versions:set -DnewVersion=${{ env.PARENT_VERSION }}
-                    mvn test
+                    mvn clean site install
 
             -
                 name: Build and Test PDS4 IM repo
                 run: |
                     cd validate
                     mvn versions:set -DnewVersion=${{ env.PARENT_VERSION }}
-                    mvn test
+                    mvn clean site install
 
 ...
 
