@@ -17,6 +17,7 @@ on:
         branches:
             -   '**'
             -   '!main'
+    workflow_dispatch:
 
 
 # What to Do
@@ -61,8 +62,30 @@ jobs:
                     distribution: 'adopt'
                     java-version: ${{matrix.java-version}}
             -
-                name: 🩺 Test Software
-                run: mvn test
+                name: Install Parent Project
+                run: | 
+                    echo "PARENT_VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout) >> $GITHUB_ENV
+                    mvn install
+
+            -
+                name: 💳 Checkout
+                uses: actions/checkout@v4
+                with:
+                    repository: NASA-PDS/validate
+
+            -
+                name: Build and Test Validate repo
+                run: |
+                    cd validate
+                    mvn versions:set -DnewVersion=${{ env.PARENT_VERSION }}
+                    mvn test
+
+            -
+                name: Build and Test PDS4 IM repo
+                run: |
+                    cd validate
+                    mvn versions:set -DnewVersion=${{ env.PARENT_VERSION }}
+                    mvn test
 
 ...
 
