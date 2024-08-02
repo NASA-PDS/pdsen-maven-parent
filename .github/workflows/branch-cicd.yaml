@@ -79,11 +79,18 @@ jobs:
                     cd validate
                     mvn versions:set -DnewVersion=${{ env.PARENT_VERSION }}
                     mvn clean site install
+                    cd ..
+
+            -
+                name: 💳 Checkout
+                uses: actions/checkout@v4
+                with:
+                    repository: NASA-PDS/pds4-information-model
 
             -
                 name: Build and Test PDS4 IM repo
                 run: |
-                    cd validate
+                    cd pds4-information-model
                     mvn versions:set -DnewVersion=${{ env.PARENT_VERSION }}
                     mvn clean site install
 
