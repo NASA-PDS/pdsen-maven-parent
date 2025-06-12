@@ -64,7 +64,7 @@ jobs:
             -
                 name: Install Parent Project
                 run: | 
-                    echo "PARENT_VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout) >> $GITHUB_ENV
+                    echo "PARENT_VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)" >> $GITHUB_ENV
                     mvn install
 
             -
