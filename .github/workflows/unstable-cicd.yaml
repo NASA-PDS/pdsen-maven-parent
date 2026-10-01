@@ -12,10 +12,10 @@
 #     ``delete:packages``, ``workflow``, and ``read:gpg_key``.
 # ``CODE_SIGNING_KEY``
 #     A *private* key with which we can sign artifacts.
-# ``OSSRH_USERNAME``
-#     Username for the Central Repository.
-# ``OSSRH_USERNAME``
-#     Password for the Central Repository.
+# ``CENTRAL_REPOSITORY_USERNAME``
+#     Username (user token) for the Sonatype Central Repository portal.
+# ``CENTRAL_REPOSITORY_TOKEN``
+#     Password (user token) for the Sonatype Central Repository portal.
 
 
 ---
@@ -74,8 +74,8 @@ jobs:
                     assembly: unstable
                     packages: openjdk25-jdk
                 env:
-                    ossrh_username: ${{secrets.OSSRH_USERNAME}}
-                    ossrh_password: ${{secrets.OSSRH_PASSWORD}}
+                    central_portal_username: ${{secrets.CENTRAL_REPOSITORY_USERNAME}}
+                    central_portal_token: ${{secrets.CENTRAL_REPOSITORY_TOKEN}}
                     CODE_SIGNING_KEY: ${{secrets.CODE_SIGNING_KEY}}
                     ADMIN_GITHUB_TOKEN: ${{secrets.ADMIN_GITHUB_TOKEN}}
 
