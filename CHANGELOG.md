@@ -1,5 +1,13 @@
 # Changelog
 
+## [release/2.0.0](https://github.com/NASA-PDS/pdsen-maven-parent/tree/release/2.0.0) (2026-10-01)
+
+[Full Changelog](https://github.com/NASA-PDS/pdsen-maven-parent/compare/v1.18.0...release/2.0.0)
+
+**Improvements:**
+
+- Manually push 1.20.0 to maven central to enable update of registry tools [\#70](https://github.com/NASA-PDS/pdsen-maven-parent/issues/70)
+
 ## [v1.18.0](https://github.com/NASA-PDS/pdsen-maven-parent/tree/v1.18.0) (2024-05-24)
 
 [Full Changelog](https://github.com/NASA-PDS/pdsen-maven-parent/compare/v1.17.0...v1.18.0)
